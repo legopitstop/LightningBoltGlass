@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:root_system",
+  "placement_attempts": 20,
+  "radius": 3,
+  "column_max_height": 50,
+  "predicate": { "blocks": ["#c:sand"] },
+  "block": { "Name": "minecraft:glass" }
+}

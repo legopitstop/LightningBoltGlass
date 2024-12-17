@@ -9,14 +9,14 @@
     ],
     "contact": {
         "homepage": "https://lpsmods.dev/",
-        "sources": "https://github.com/legopitstop/examplemod"
+        "sources": "https://github.com/legopitstop/LightningBoltGlass"
     },
     "license": "${license}",
-    "icon": "${mod_id}.png",
+    "icon": "assets/${mod_id}/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "dev.lpsmods.examplemod.ExampleMod"
+            "dev.lpsmods.lightning.LightningBoltGlass"
         ]
     },
     "mixins": [
@@ -28,9 +28,6 @@
         "fabric-api": "*",
         "minecraft": "${minecraft_version}",
         "java": ">=${java_version}"
-    },
-    "suggests": {
-        "another-mod": "*"
     }
 }
   
